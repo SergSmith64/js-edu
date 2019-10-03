@@ -13,8 +13,6 @@ module.exports = function getTimeForEducation(
   let hoursProgramming = 800;
   let weeks = 0;
 
-  // let hours = (knowsProgramming) ? 800 : (500 + 800);
-
   if (knowsProgramming) {
     hours = hoursProgramming;
   } else {
